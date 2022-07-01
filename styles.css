@@ -598,7 +598,7 @@ body * {
 }
 
 .request-wrapper{
-    background-image: url("/images/request-background.jpg");
+    background-image: url("images/request-background.jpg");
     background-repeat: no-repeat;
     max-width: 1538px;
     display: flex;
@@ -848,7 +848,7 @@ padding-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/images/clients-image.jpg");
+    background-image: url("images/clients-image.jpg");
     background-size: auto;
     background-position: bottom;
     background-repeat: repeat-x;
