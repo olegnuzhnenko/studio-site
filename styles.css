@@ -1,12 +1,12 @@
 
 @font-face {
     font-family: 'Nunito Sans';
-    src: url('../fonts/nunito-sans-v12-latin-regular.ttf');
+    src: url('fonts/nunito-sans-v12-latin-regular.ttf');
 }
 
 @font-face {
     font-family: 'Yeseva One';
-    src: url('../fonts/yeseva-one-v20-latin-regular.ttf');
+    src: url('fonts/yeseva-one-v20-latin-regular.ttf');
 }
 
 body {
@@ -149,7 +149,7 @@ body * {
 }
 
 .hero {
-    background-image: url('../images/hero.jpg');
+    background-image: url('images/hero.jpg');
     background-size: cover;
     height: 707px;
     padding-top: 194px;
