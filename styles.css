@@ -1,12 +1,12 @@
 
 @font-face {
     font-family: 'Nunito Sans';
-    src: url('fonts/nunito-sans-v12-latin-regular.ttf');
+    src: url('../fonts/nunito-sans-v12-latin-regular.ttf');
 }
 
 @font-face {
     font-family: 'Yeseva One';
-    src: url('fonts/yeseva-one-v20-latin-regular.ttf');
+    src: url('../fonts/yeseva-one-v20-latin-regular.ttf');
 }
 
 body {
@@ -149,7 +149,7 @@ body * {
 }
 
 .hero {
-    background-image: url('images/hero.jpg');
+    background-image: url('../images/hero.jpg');
     background-size: cover;
     height: 707px;
     padding-top: 194px;
@@ -598,7 +598,7 @@ body * {
 }
 
 .request-wrapper{
-    background-image: url("images/request-background.jpg");
+    background-image: url("../images/request-background.jpg");
     background-repeat: no-repeat;
     max-width: 1538px;
     display: flex;
@@ -848,7 +848,7 @@ padding-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("images/clients-image.jpg");
+    background-image: url("../images/clients-image.jpg");
     background-size: auto;
     background-position: bottom;
     background-repeat: repeat-x;
