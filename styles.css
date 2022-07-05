@@ -21,29 +21,8 @@ body * {
 
 }
 
-@media (max-width:1300px) {
-    .container{
-        max-width: 970px;
-    }
-    
-}
-
-@media (max-width:992px) {
-    .container{
-        max-width: 750px;
-    }
-    
-}
-
-@media (max-width:768px) {
-    .container{
-        max-width: none;
-    }
-    
-}
-
 .container {
-    max-width: 1400px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -263,7 +242,7 @@ body * {
     text-transform: uppercase;
     color: #E3B873;
     width: 253px;
-    margin-top: 0px;
+    margin-top: 70px;
 
 }
 
@@ -309,7 +288,8 @@ body * {
 .text-wrapper {
     display: flex;
     flex-direction: column;
-    height: 465px;
+    height: 100%;
+
 
 
 }
@@ -550,6 +530,7 @@ body * {
 
 .card-desc {
     display: flex;
+    position: relative;
     flex-direction: column;
     width: 330px;
     background: #FFFFFF;
@@ -1120,3 +1101,371 @@ padding-top: 20px;
     padding-top:60px;
     padding-bottom: 60px;
 }
+
+.phone_number{
+    display: none;
+}
+
+.slider-mobile{
+    display: none;
+}
+
+.submit-mobile{
+    display: none;
+}
+
+ @media screen and (max-width: 480px) {
+
+.header-content {
+        width: 375px;
+        height: 57px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+nav{
+    display: none;
+}
+.phone_number{
+font-family: 'Nunito Sans';
+display: contents;
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+text-align: right;
+color: #FFFFFF;
+}
+.button{
+    display: none;
+}
+
+.hero{
+padding-top: 85px;
+height: 576px;
+
+}
+
+
+.hero-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 0;
+    width: 339px;
+}
+.title{
+    width: 339px;
+    font-size: 23px;
+
+}
+
+
+.title-text{
+    width: 339px;
+    font-size: 14px;
+    
+}
+
+button{
+    width: 339px;
+}
+.button_calculate{
+    margin-top: 32px;
+    margin-bottom: 26px;
+}
+
+.projects-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 339px;
+    padding-left: 0;
+    padding-top: 0;
+}
+.text-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.title2{
+    font-size: 22px;
+    margin-top: 36px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-text{
+    text-align: center;
+    font-size: 11px;
+    width: 311px;
+    margin-bottom: 72px;
+}
+
+
+.arrows{
+    display: none;
+}
+
+.slider-mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 13px;
+    padding-right: 13px;
+    background-image: url('images/slider_mobile.jpg');
+    height: 241px;
+    margin-bottom: 22px;
+
+}
+
+.slider_img{
+    display: none;
+}
+
+.city  {
+    padding-right: 60px;
+}
+.detais-title{
+    font-size: 14px;
+
+}
+
+.details-text{
+    font-size: 11px;
+    width: 99px;
+}
+
+.onlinecontrol {
+    margin: 0 auto;
+    color: #FFFFFF;
+    margin-top: -350px;
+    background-color: #000000;
+
+}
+.video{
+    background-size: 1em;
+}
+
+.video-img{
+    width: 340px;
+}
+
+.play-mobile{
+    width: 67px;
+    
+}
+.control-text{
+    width: 340px;
+    font-size: 11px;
+    line-height: 18.68px;
+    padding-top: 0;color: #FFFFFF;
+
+}
+.control-hr{
+    padding-top: 0;
+    width: 55px;
+}
+
+
+.control-form{
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    align-items: flex-start;
+}
+.form-titles{
+    color: #FFFFFF;
+    width: 340px;
+}
+
+.form-input{
+    background-color: #000000;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px rgba(255, 255, 255, );
+    margin: 0 auto;
+    width: 340px;
+    font-size: 15px;
+}
+.checkbox-wrapper{
+    color: #FFFFFF;
+    padding-top: 22px;
+    width: 340px;
+    justify-content: flex-start;
+    padding-bottom: 90px;
+}
+.submit-form{
+    display: none;
+}
+.repair-wrapper{
+    margin-top: -25px;
+}
+.submit-mobile{
+    background: rgb(227, 184, 115);
+    border-radius: 2px;
+    font-family: 'Nunito Sans';
+    border: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 340px;
+    height: 51px;
+    display: list-item;
+}
+
+.repair_title{
+    margin-top: 58px;
+}
+
+.cards-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.card{
+    width: 340px;
+}
+
+.card-desc{
+    width: 270px;
+}
+.request{
+    display: none;
+}
+
+.help{
+    display: none;
+}
+
+.fantasies-text{
+    display: none;
+}
+
+.fantasies-cards{
+    display: none;
+}
+
+.fantasies-title{
+    width: 340px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 66px;
+    font-size: 22px;
+    text-align: center;
+}
+.fantasies{
+    background: none;
+    height: auto;
+    margin-top: auto;
+}
+
+.clients{
+    display: none;
+}
+
+.slider-mobile2{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 13px;
+    padding-right: 13px;
+    background-image: url('images/slider_mobile2.jpg');
+    height: 241px;
+    margin-bottom: 22px;
+
+}
+.fantasies-list{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.questions{
+    margin-top: -143px;
+}
+
+.questions-title{
+    margin-top: 173px;
+}
+
+.type1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 63px;
+}
+
+
+.question-form-input{
+    width: 340px; 
+
+}
+.question-form-input1{
+    width: 340px;  
+}
+
+.checkbox-wrapper2{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 23px;
+    color: #FFFFFF;
+    width: 340px;
+}
+.submit-question{
+    background: rgb(227, 184, 115);
+    border-radius: 2px;
+    font-family: 'Nunito Sans';
+    border: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 340px;
+    height: 51px;
+    display: list-item;
+}
+
+.map{
+    width: 340px;
+    height: 255px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 0;
+    background-image: none;
+    background-color: #000000;
+    height: auto;
+}
+
+.address-rostov{
+    width: 340px;
+    padding-top: 0;
+    margin-bottom: 20px;
+}
+.mailinst{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer{
+    display: none;
+}
+} 
+
+
