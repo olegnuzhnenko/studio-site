@@ -36,6 +36,7 @@ body * {
     font-style: italic;
     outline: 0;
     padding: 13px 33px;
+    font-size: 11px;
 
 
 }
@@ -91,7 +92,15 @@ body * {
 
 .logo {
     color: #E3B873;
-    ;
+    font-size: 11px;
+    font-family: 'Nunito Sans';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+
+
 }
 
 .header {
@@ -113,6 +122,7 @@ body * {
 
 .header-navigation_item {
     margin-right: 47px;
+    font-size: 11px;
 }
 
 .header-navigation_item a {
@@ -121,7 +131,8 @@ body * {
 }
 
 .header-navigation_item a:hover {
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(227, 184, 115, 1);
+
     transition: color ease-in 50ms ease-out 50ms;
     transition-duration: 200ms;
     cursor: pointer;
@@ -1063,7 +1074,7 @@ padding-top: 20px;
     background: linear-gradient(#000000c7, #000000e3), url('images/contacts-back.jpg') center / cover;
     background-size: cover;
     width: 100%;
-    height: 950px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1087,12 +1098,13 @@ padding-top: 20px;
     display: flex;
     justify-content: center;
     gap:15px;
-    padding-bottom: 45px;
+    padding-bottom: 35px;
 }
 
 .map{
     width: 925px;
     height: 465px;
+    padding-bottom: 55px;
     -webkit-filter: grayscale(100%);
 }
 
@@ -1103,10 +1115,16 @@ padding-top: 20px;
 }
 
 .phone_number{
-    display: none;
+color: rgba(227, 184, 115, 1);
+font-size: 11px;
+text-decoration: underline;
 }
 
 .slider-mobile{
+    display: none;
+}
+
+.slider-mobile2{
     display: none;
 }
 
@@ -1130,11 +1148,12 @@ nav{
 font-family: 'Nunito Sans';
 display: contents;
 font-style: normal;
+color: #FFFFFF;
 font-weight: 400;
 font-size: 11px;
 line-height: 15px;
 text-align: right;
-color: #FFFFFF;
+text-decoration: underline;
 }
 .button{
     display: none;
@@ -1443,6 +1462,7 @@ button{
 .map{
     width: 340px;
     height: 255px;
+    
 }
 
 .contacts{
@@ -1457,11 +1477,12 @@ button{
 .address-rostov{
     width: 340px;
     padding-top: 0;
+    margin-top: 0;
     margin-bottom: 20px;
 }
 .mailinst{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+
 }
 footer{
     display: none;
